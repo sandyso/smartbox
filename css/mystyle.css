@@ -1,0 +1,103 @@
+html {
+
+}
+
+body {
+    background-color: #CDCAC1;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+    width: 1000px;
+    box-shadow: -3px 3px 5px #CDCAC1;
+}
+
+.navigation {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    height: 50px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 24px;
+    float: left;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.logo span {
+    font-weight: bolder;
+    color: #42576A;
+}
+
+.top-menu {
+    font-size: 20px;
+    list-style-type: none;
+    margin: auto;
+    float: right;
+}
+
+.top-menu li {
+    display: inline;
+    letter-spacing: 0.03em;
+}
+
+.header {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-color: DarkGrey;
+    margin: auto;
+    padding: 98px;
+    width: 83.5%;
+}
+
+.header h1 {
+    font-size: 66px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: -3px 3px 3px black;
+
+}
+
+.header span {
+    font-weight: normal;
+}
+
+.content {
+    margin: auto;
+    background-color: white;
+    width: 1010px;
+    text-align: center;
+    padding: 11.365px;
+}
+
+.about {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.about span {
+    font-weight: bold;
+}
+
+.sections {
+    text-align: center;
+    display: inline;
+}
+
+.widgets {
+    list-style-type: none;
+    position: block;
+    display: inline;
+}
+
+.widgets h3 {}
+
+.widgets p {}
