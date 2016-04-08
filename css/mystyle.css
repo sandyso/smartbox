@@ -72,6 +72,20 @@ body {
     font-weight: lighter;
 }
 
+.hcolor {
+    float: right;
+}
+
+#blue {
+    border: 25px solid #0000ff;
+    width: 10px;
+}
+
+#green {
+    border: 25px solid #006400;
+    width: 10px;
+}
+
 .content {
     text-align: center;
     margin: auto;
@@ -88,13 +102,13 @@ body {
 
 .widgets {
     list-style-type: none;
-    display:inline-flex;
+    display: inline-flex;
     padding: 10px;
 }
 
 .widgets i {
     color: white;
-    display:inline;
+    display: inline;
     background-image: url('../images/background.jpg');
     padding: 26px;
     border-radius: 50%;
@@ -104,7 +118,6 @@ body {
 .widgets li {
     display: inline;
     padding-top: 10px;
-
 }
 
 .widgets h3 {
